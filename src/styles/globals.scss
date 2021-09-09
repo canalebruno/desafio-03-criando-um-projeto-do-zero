@@ -4,4 +4,14 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --magenta: #ff57b2;
+  --white: #f8f8f8;
+  --gray-50: #d7d7d7;
+  --gray-500: #bbbbbb;
+  --gray-900: #1a1d23;
+}
+
+body {
+  background: var(--gray-900);
+}
